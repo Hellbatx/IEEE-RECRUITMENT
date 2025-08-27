@@ -15,7 +15,7 @@ normalized_array= (array - np.min(array)) / (np.max(array) - np.min(array))    #
 
 print("The normalized array is: ", normalized_array, "\n")                    #prints the normalized array
 
-flattened_array= array.flatten() 
+flattened_array= normalized_array.flatten() 
 
 print("THe flattened array (now one dimensional) is: ", flattened_array,"\n")           #flattens the 5,5 matrix into a 1D array
 
